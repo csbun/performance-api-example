@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Performance API Example</title>
+</head>
+<body>
+  <section>
+    <p>window.performance.now(): <span id="p-now"></span></p>
+  </section>
+
+  <section>
+    <h2>Mark</h2>
+    <ul id="mark-list"></ul>
+    <p>
+      <button id="btn-mark">Mark</button>
+      <button id="btn-mark-data">Mark Data</button>
+    </p>
+    <pre id="mark-data"></pre>
+  </section>
+
+  <section>
+    <h2>Measure</h2>
+    <ul id="measure-list"></ul>
+    <p>
+      <button id="btn-measure">Measure</button>
+      <button id="btn-measure-data">Measure Data</button>
+    </p>
+    <pre id="measure-data"></pre>
+  </section>
+
+
+  <section>
+    <h2>Get Entries By Name</h2>
+    <p>
+      <button id="btn-entry-mark">Get Mark</button>
+      <button id="btn-entry-measure">Get Measure</button>
+    </p>
+    <pre id="data"></pre>
+  </section>
+
+</body>
+<script src="./index.js"></script>
+</html>
